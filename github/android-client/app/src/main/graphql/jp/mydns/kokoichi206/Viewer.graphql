@@ -1,0 +1,12 @@
+query Viewer {
+    viewer {
+        login
+        email
+        bio
+        organizations(first: 5) {
+            nodes {
+                name
+            }
+        }
+    }
+}
